@@ -1,0 +1,27 @@
+server:
+  port: 8020
+person:
+  name: zhangsan
+  age: 16
+  map: {lilei: ss,zhaowu: zz}
+  list:
+    - 张飞
+    - 赵云
+  dog:
+    name: 小黑
+    age: 2
+#    激活配置文件
+spring:
+  profiles:
+    active: prod
+
+---
+profiles: dev
+
+server:
+  port: 8083
+---
+server:
+     port: 8084
+spring:
+  profiles: prod

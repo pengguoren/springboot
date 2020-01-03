@@ -1,0 +1,12 @@
+#server:
+#  port: 8040
+#person:
+#  name: zhangsan
+#  age: 16
+#  map: {lilei: ss,zhaowu: zz}
+#  list:
+#    - 张飞
+#    - 赵云
+#  dog:
+#    name: 小黑
+#    age: 2
